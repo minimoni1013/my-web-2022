@@ -1,0 +1,105 @@
+* {
+/*   border: solid 1px red;  */
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.container-fluid {
+  padding-top: 20px;
+}
+.New Zealand{
+  padding-top: 100px;
+}
+section {
+  padding-top: 100px;
+}
+
+section#s1 {
+  background: #FFFCF2;
+}
+
+section#s2 {
+  background: #FFFCF2;
+}
+
+section#s3 {
+  background: #FFFCF2;
+  padding-bottom: 100px;
+}
+
+section#s4 {
+  background: #FFFCF2;
+}
+
+
+
+.toTop-arrow {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 33%;
+  opacity: 0.6;
+  background: #000;
+  cursor: pointer;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+}
+.toTop-arrow::before,
+.toTop-arrow::after {
+  width: 18px;
+  height: 5px;
+  border-radius: 3px;
+  background: #f90;
+  position: absolute;
+  content: "";
+}
+.toTop-arrow::before {
+  transform: rotate(-45deg) translate(0, -50%);
+  left: 0.5rem;
+}
+.toTop-arrow::after {
+  transform: rotate(45deg) translate(0, -50%);
+  right: 0.5rem;
+}
+.toTop-arrow:focus {
+  outline: none;
+}
+
+p{ 
+font-size: 20px;　　　　　         
+ line-height: 50px;　　　          　
+ letter-spacing: 5px;
+}
+
+.alert{
+  position: absolute;
+  height: 50px;
+  width: 225px;
+  margin-top: 30px;
+  margin-right:10px;
+}
+
+.hr1{
+  border: 2px solid #B5E2FA ;
+}
+
+.hr-edge-weak {
+    border: 0;
+    padding-top: 1px;
+    background: linear-gradient(to right, transparent, #38A3A5 , transparent);
+}
+
+.card-deck{
+  margin-top: 20px;
+  padding-right: 50px;
+  padding-left:50px;
+}
+
+.card {
+        margin: 0 auto; 
+        float: none;
+  margin-bottom: 10px; 
+}
